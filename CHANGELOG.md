@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.1.2]
+
+- One more change
+
 ## [0.1.1]
 
 - Added something.
