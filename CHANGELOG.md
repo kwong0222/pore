@@ -1,5 +1,18 @@
 ## [Unreleased]
 
+## [0.4.0](https://github.com/kwong0222/pore/compare/v0.3.1...v0.4.0) (2025-08-19)
+
+
+### Features
+
+* allow manual release ([#19](https://github.com/kwong0222/pore/issues/19)) ([e7bc146](https://github.com/kwong0222/pore/commit/e7bc146aa55539dabfebc45cfd8731ec053ea722))
+* lint pr title ([#21](https://github.com/kwong0222/pore/issues/21)) ([a45b4ff](https://github.com/kwong0222/pore/commit/a45b4ffe632f1b2614d666242d9aa83d238b5792))
+
+
+### Bug Fixes
+
+* remove github package push ([#20](https://github.com/kwong0222/pore/issues/20)) ([5af432e](https://github.com/kwong0222/pore/commit/5af432e18d5677f8449bb6d503b952dbc7ad368c))
+
 ## [0.4.1]
 
 - Remove ruby package push
