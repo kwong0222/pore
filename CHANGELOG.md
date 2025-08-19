@@ -1,5 +1,14 @@
 ## [Unreleased]
 
+## [0.2.1](https://github.com/kwong0222/pore/compare/v0.2.0...v0.2.1) (2025-08-19)
+
+
+### Bug Fixes
+
+* release workflow ([2b31371](https://github.com/kwong0222/pore/commit/2b313711e8829f97e10006cd13107a46fc619b43))
+* remove permissions ([f9211c1](https://github.com/kwong0222/pore/commit/f9211c152044cbe821ccdb2dea86070be3065035))
+* use release-please 3 ([377b6db](https://github.com/kwong0222/pore/commit/377b6dbb67f09d8e010c012b2bc11ca6a94c4e11))
+
 ## [0.2.0](https://github.com/kwong0222/pore/compare/v0.1.3...v0.2.0) (2025-08-18)
 
 
