@@ -6,11 +6,6 @@ on:
       - opened
       - edited
 
-permissions:
-  pull-requests: write
-  contents: read
-  issues: write
-
 jobs:
   check-changes:
     runs-on: ubuntu-latest
