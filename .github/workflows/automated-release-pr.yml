@@ -1,0 +1,37 @@
+name: automated-release-pr
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-changes:
+    runs-on: ubuntu-latest
+    outputs:
+        release_files_changed: ${{ steps.filter.outputs.release_files_changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            release_files_changed:
+              - 'lib/*/version.rb'
+
+  release:
+    needs: check-changes
+    if: needs.check-changes.outputs.release_files_changed != 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Set up Ruby 3.0.6
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.0.6
+
+    - uses: googleapis/release-please-action@v4
+      id: release-please
