@@ -1,5 +1,19 @@
 ## [Unreleased]
 
+## [0.3.0](https://github.com/kwong0222/pore/compare/v0.2.1...v0.3.0) (2025-08-19)
+
+
+### Features
+
+* update release config ([41658b9](https://github.com/kwong0222/pore/commit/41658b9877ba2bece1f7b808c1cccaa752de4170))
+* update release config ([bb61401](https://github.com/kwong0222/pore/commit/bb6140164b639029664c882d20cb74e8dd4730cb))
+
+
+### Bug Fixes
+
+* bump release ([d0f28c9](https://github.com/kwong0222/pore/commit/d0f28c96f3a511eaf087b3485595838174f07c4c))
+* bump release ([181d160](https://github.com/kwong0222/pore/commit/181d1602c105ef0160522e3c542ff4f493aff898))
+
 ## [0.2.1](https://github.com/kwong0222/pore/compare/v0.2.0...v0.2.1) (2025-08-19)
 
 
