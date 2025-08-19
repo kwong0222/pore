@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.4.1]
+
+- Yes
+
 ## [0.4.0](https://github.com/kwong0222/pore/compare/v0.3.1...v0.4.0) (2025-08-19)
 
 
