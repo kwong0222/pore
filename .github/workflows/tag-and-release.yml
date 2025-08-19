@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+    paths: 'lib/*/version.rb'
 
 jobs:
   release:
@@ -17,5 +18,54 @@ jobs:
       with:
         ruby-version: 3.0.6
 
-    - uses: googleapis/release-please-action@v4
-      id: release-please
+    - name: Get version
+      id: get_version
+      run: |
+        version_file=$(find ./lib -name version.rb)
+        version=$(grep VERSION $version_file |cut -f 2 -d= |tr -d \'|tr -d [:space:])
+        echo version=$version >> $GITHUB_OUTPUT
+        echo version_tag=v$version >> $GITHUB_OUTPUT
+
+    - name: Tag commit
+      uses: tvdias/github-tagger@ed7350546e3e503b5e942dffd65bc8751a95e49d # v0.0.2
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        tag: "${{steps.get_version.outputs.version_tag}}"
+
+    - name: Upload to Github Packages
+      env:
+        PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        set +e
+        mkdir -p ~/.gem
+        touch ~/.gem/credentials
+        chmod 600 ~/.gem/credentials
+        echo ":github: Bearer ${PACKAGES_TOKEN}" >> ~/.gem/credentials
+
+        gemspec=$(ls *gemspec* | head -1)
+        gem build $gemspec
+        gem_name=$(ls -t *.gem | head -1)
+        output=$(gem push --key github --host "https://rubygems.pkg.github.com/rewindio" *.gem)
+
+        if [[ $output != *"Successfully"* ]]; then
+          echo "Error uploading to Github Packages: $output"
+          rm -f ~/.gem/credentials
+          exit 1
+        else
+          echo "Successfully uploaded to Github Packages: $output"
+          rm -f ~/.gem/credentials
+        fi
+
+    - name: Extract from changelog
+      id: extract_changes
+      run: |
+        # Must use a temporary file or it loses the formatting
+        VERSION=${{steps.get_version.outputs.version}}; awk "/## \[$VERSION\]/{flag=1;next}/## \[/{flag=0}flag" CHANGELOG.md > REL-BODY.md
+
+    - name: Create Release
+      uses: ncipollo/release-action@6c75be85e571768fa31b40abf38de58ba0397db5 # v1.13.0
+      with:
+        tag: ${{steps.get_version.outputs.version_tag}}
+        artifacts: "*.gem, CHANGELOG.md"
+        bodyFile: "REL-BODY.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
