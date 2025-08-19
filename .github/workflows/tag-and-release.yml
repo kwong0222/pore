@@ -32,30 +32,6 @@ jobs:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         tag: "${{steps.get_version.outputs.version_tag}}"
 
-    - name: Upload to Github Packages
-      env:
-        PACKAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        set +e
-        mkdir -p ~/.gem
-        touch ~/.gem/credentials
-        chmod 600 ~/.gem/credentials
-        echo ":github: Bearer ${PACKAGES_TOKEN}" >> ~/.gem/credentials
-
-        gemspec=$(ls *gemspec* | head -1)
-        gem build $gemspec
-        gem_name=$(ls -t *.gem | head -1)
-        output=$(gem push --key github --host "https://rubygems.pkg.github.com/rewindio" *.gem)
-
-        if [[ $output != *"Successfully"* ]]; then
-          echo "Error uploading to Github Packages: $output"
-          rm -f ~/.gem/credentials
-          exit 1
-        else
-          echo "Successfully uploaded to Github Packages: $output"
-          rm -f ~/.gem/credentials
-        fi
-
     - name: Extract from changelog
       id: extract_changes
       run: |

@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.4.1]
+
+- Remove ruby package push
+
 ## [0.4.0]
 
 - Allow manual release
