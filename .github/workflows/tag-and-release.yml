@@ -24,7 +24,7 @@ jobs:
       with:
         ruby-version: 3.0.6
 
-    - uses: googleapis/release-please-action@v4
+    - uses: googleapis/release-please-action@v3
       id: release-please
       with:
         release-type: ruby
