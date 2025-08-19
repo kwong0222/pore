@@ -26,7 +26,8 @@ jobs:
     if: needs.check-changes.outputs.release_files_changed != 'true'
     runs-on: ubuntu-latest
     permissions:
-      pull-requests: read
+      pull-requests: write
+      contents: read
     steps:
       - uses: amannn/action-semantic-pull-request@v6
         id: lint_pr_title
