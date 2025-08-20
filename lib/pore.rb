@@ -9,4 +9,8 @@ module Pore
     VERSION
   end
 
+  def self.version_string
+    "v#{VERSION}"
+  end
+
 end
