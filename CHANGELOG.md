@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [1.7.0](https://github.com/kwong0222/pore/compare/v1.6.0...v1.7.0) (2025-08-20)
+
+
+### Features
+
+* skip release ([#51](https://github.com/kwong0222/pore/issues/51)) ([64e2615](https://github.com/kwong0222/pore/commit/64e2615a0e2d1e1bf660602b4e567c956f193c79))
+
 ## [1.6.0](https://github.com/kwong0222/pore/compare/v1.5.0...v1.6.0) (2025-08-20)
 
 
