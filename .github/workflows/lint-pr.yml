@@ -45,11 +45,7 @@ jobs:
           message: |
             Hey there and thank you for opening this pull request! 👋🏼
 
-            This repository uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for pull request titles to create automated releases.
-
-            If you intend to create a release, please update the pull request title to follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
-
-            If you intend to manually manage the release version, please ensure `lib/pore/version.rb` and CHANGELOG is updated.
+            Automated releases require pull request titles to follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) and it looks like your proposed title needs to be adjusted.
 
             Details:
 
