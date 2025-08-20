@@ -10,7 +10,7 @@ module Pore
   end
 
   def hello
-    puts "Hello, world!"
+    puts "Hello, world 2!"
   end
 
 end
