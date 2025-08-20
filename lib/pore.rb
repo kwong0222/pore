@@ -13,4 +13,7 @@ module Pore
     puts "Hello, world 2!"
   end
 
+  def manual_release
+    puts "Manual release"
+  end
 end

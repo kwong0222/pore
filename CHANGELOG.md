@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.1.3]
+
+- Manual release
+
 ## [1.0.3](https://github.com/kwong0222/pore/compare/v1.0.2...v1.0.3) (2025-08-20)
 
 
