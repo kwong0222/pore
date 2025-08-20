@@ -10,7 +10,7 @@ module Pore
   end
 
   def hello
-    puts "Hello, world 2!"
+    puts "Hello, world 3!"
   end
 
   def manual_release
