@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.2]
+
+- Remove manifest file
+
 ## [1.0.1](https://github.com/kwong0222/pore/compare/v1.0.0...v1.0.1) (2025-08-20)
 
 
