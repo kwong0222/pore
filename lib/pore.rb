@@ -18,6 +18,6 @@ module Pore
   end
 
   def automated_release
-    puts "Automated release"
+    puts "Automated release 1"
   end
 end
