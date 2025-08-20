@@ -1,5 +1,16 @@
 ## [Unreleased]
 
+## [1.0.0](https://github.com/kwong0222/pore/compare/v0.6.0...v1.0.0) (2025-08-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove version change ([#29](https://github.com/kwong0222/pore/issues/29))
+
+### Features
+
+* remove version change ([#29](https://github.com/kwong0222/pore/issues/29)) ([6812d41](https://github.com/kwong0222/pore/commit/6812d41c6878147090fbdc8404ac6b4cce3e7129))
+
 ## [0.6.0](https://github.com/kwong0222/pore/compare/v0.5.0...v0.6.0) (2025-08-20)
 
 
