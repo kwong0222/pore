@@ -4,5 +4,9 @@ require_relative "pore/version"
 
 module Pore
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.version
+    VERSION
+  end
+
 end
