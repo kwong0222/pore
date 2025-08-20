@@ -10,7 +10,7 @@ module Pore
   end
 
   def self.version_string
-    "v#{VERSION}"
+    "v#{VERSION}-beta"
   end
 
 end
