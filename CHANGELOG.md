@@ -1,5 +1,18 @@
 ## [Unreleased]
 
+## [0.6.0](https://github.com/kwong0222/pore/compare/v0.5.0...v0.6.0) (2025-08-20)
+
+
+### Features
+
+* adding a function ([#26](https://github.com/kwong0222/pore/issues/26)) ([8b243a2](https://github.com/kwong0222/pore/commit/8b243a2d42681bcef45ebfe7b4d9c14ac879b1df))
+* adding version string ([8b243a2](https://github.com/kwong0222/pore/commit/8b243a2d42681bcef45ebfe7b4d9c14ac879b1df))
+
+
+### Bug Fixes
+
+* add a fix to version ([#28](https://github.com/kwong0222/pore/issues/28)) ([81e41ef](https://github.com/kwong0222/pore/commit/81e41ef14daa7b77d0bc736bfa17cec7e0c899f7))
+
 ## [0.5.0](https://github.com/kwong0222/pore/compare/v0.4.0...v0.5.0) (2025-08-20)
 
 
