@@ -1,5 +1,18 @@
 ## [Unreleased]
 
+## [1.5.0](https://github.com/kwong0222/pore/compare/v1.4.0...v1.5.0) (2025-08-20)
+
+
+### Features
+
+* dilate the pore ([#47](https://github.com/kwong0222/pore/issues/47)) ([3b37a34](https://github.com/kwong0222/pore/commit/3b37a34e71f0ce670b6c19fde17275c176f5fe76))
+* increase pore count ([3b37a34](https://github.com/kwong0222/pore/commit/3b37a34e71f0ce670b6c19fde17275c176f5fe76))
+
+
+### Bug Fixes
+
+* remove sebaceous filaments from pore ([3b37a34](https://github.com/kwong0222/pore/commit/3b37a34e71f0ce670b6c19fde17275c176f5fe76))
+
 ## [1.4.0](https://github.com/kwong0222/pore/compare/v1.3.1...v1.4.0) (2025-08-20)
 
 
