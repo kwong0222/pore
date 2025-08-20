@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [1.0.1](https://github.com/kwong0222/pore/compare/v1.0.0...v1.0.1) (2025-08-20)
+
+
+### Bug Fixes
+
+* hello world ([#32](https://github.com/kwong0222/pore/issues/32)) ([8c861f6](https://github.com/kwong0222/pore/commit/8c861f60e29b64e7f0d253b014463b687d2d1ee8))
+
 ## [1.0.1]
 
 - Updated README
