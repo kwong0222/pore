@@ -8,4 +8,9 @@ module Pore
   def self.version
     VERSION
   end
+
+  def hello
+    puts "Hello, world!"
+  end
+
 end
