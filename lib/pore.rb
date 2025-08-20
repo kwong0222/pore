@@ -8,9 +8,4 @@ module Pore
   def self.version
     VERSION
   end
-
-  def self.version_string
-    "v#{VERSION}-beta"
-  end
-
 end
