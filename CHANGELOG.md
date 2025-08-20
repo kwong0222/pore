@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+## [1.0.3](https://github.com/kwong0222/pore/compare/v1.0.2...v1.0.3) (2025-08-20)
+
+
+### Bug Fixes
+
+* re-add manifest file ([#36](https://github.com/kwong0222/pore/issues/36)) ([807d6b9](https://github.com/kwong0222/pore/commit/807d6b9175acac41eca0bbbb454cff7c7861fe51))
+* what now ([#35](https://github.com/kwong0222/pore/issues/35)) ([fa59853](https://github.com/kwong0222/pore/commit/fa59853374f20502304938dfdc5cb5e42a76f8ed))
+
 ## [1.0.2]
 
 - Remove manifest file
