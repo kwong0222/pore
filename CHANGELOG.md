@@ -1,5 +1,18 @@
 ## [Unreleased]
 
+## [0.5.0](https://github.com/kwong0222/pore/compare/v0.4.0...v0.5.0) (2025-08-20)
+
+
+### Features
+
+* lint pr title ([#21](https://github.com/kwong0222/pore/issues/21)) ([a45b4ff](https://github.com/kwong0222/pore/commit/a45b4ffe632f1b2614d666242d9aa83d238b5792))
+
+
+### Bug Fixes
+
+* PR linting action ([#24](https://github.com/kwong0222/pore/issues/24)) ([a2bf97d](https://github.com/kwong0222/pore/commit/a2bf97d0f02b080a0fe47e786f1429412bc69317))
+* remove github package push ([#20](https://github.com/kwong0222/pore/issues/20)) ([5af432e](https://github.com/kwong0222/pore/commit/5af432e18d5677f8449bb6d503b952dbc7ad368c))
+
 ## [0.4.1]
 
 - Yes
