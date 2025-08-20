@@ -6,23 +6,7 @@ on:
       - main
 
 jobs:
-  check-changes:
-    runs-on: ubuntu-latest
-    outputs:
-        release_files_changed: ${{ steps.filter.outputs.release_files_changed }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: dorny/paths-filter@v3
-        id: filter
-        with:
-          filters: |
-            release_files_changed:
-              - 'lib/*/version.rb'
-
   release:
-    needs: check-changes
-    if: needs.check-changes.outputs.release_files_changed != 'true'
     runs-on: ubuntu-latest
 
     steps:
