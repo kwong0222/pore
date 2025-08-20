@@ -16,4 +16,8 @@ module Pore
   def manual_release
     puts "Manual release"
   end
+
+  def automated_release
+    puts "Automated release"
+  end
 end
