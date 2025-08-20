@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [1.4.0](https://github.com/kwong0222/pore/compare/v1.3.1...v1.4.0) (2025-08-20)
+
+
+### Features
+
+* increases pore size ([#45](https://github.com/kwong0222/pore/issues/45)) ([b3e572a](https://github.com/kwong0222/pore/commit/b3e572aa2f98cc2da26d164650a3df9ef72780b2))
+
 ## [1.3.1](https://github.com/kwong0222/pore/compare/v1.3.0...v1.3.1) (2025-08-20)
 
 
