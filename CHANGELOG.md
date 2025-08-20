@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [1.2.0](https://github.com/kwong0222/pore/compare/v1.1.3...v1.2.0) (2025-08-20)
+
+
+### Features
+
+* auto release ([#39](https://github.com/kwong0222/pore/issues/39)) ([fbe9b65](https://github.com/kwong0222/pore/commit/fbe9b65c6114bce3f0037f542d3e52e6f5487219))
+
 ## [1.1.3]
 
 - Manual release
