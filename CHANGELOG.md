@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+## [1.10.0](https://github.com/kwong0222/pore/compare/v1.9.1...v1.10.0) (2025-08-21)
+
+
+### Features
+
+* prep 2 ([#65](https://github.com/kwong0222/pore/issues/65)) ([bf501f7](https://github.com/kwong0222/pore/commit/bf501f76b7252ead0548f35c22a4b28c880d923b))
+* prep r&d demo ([#63](https://github.com/kwong0222/pore/issues/63)) ([d00a05e](https://github.com/kwong0222/pore/commit/d00a05e42b64fdc80b1a99062b93a7b49a9a57b3))
+
 ## [1.9.1](https://github.com/kwong0222/pore/compare/v1.9.0...v1.9.1) (2025-08-21)
 
 
