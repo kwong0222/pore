@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [1.9.1](https://github.com/kwong0222/pore/compare/v1.9.0...v1.9.1) (2025-08-21)
+
+
+### Bug Fixes
+
+* version ([#61](https://github.com/kwong0222/pore/issues/61)) ([f6e8571](https://github.com/kwong0222/pore/commit/f6e857152d07c79ff78678afd7db3f6b98456543))
+
 ## [1.9.0](https://github.com/kwong0222/pore/compare/v1.8.0...v1.9.0) (2025-08-21)
 
 
