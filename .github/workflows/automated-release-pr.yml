@@ -6,17 +6,9 @@ on:
       - main
 
 jobs:
-  release:
+  release_pr:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c # v4.3.0
-      id: release-please
-
-    - uses: actions/checkout@v4
-      if: ${{ steps.release-please.outputs.release_created }}
-
-    - name: Upload gem to registry
-      if: ${{ steps.release-please.outputs.release_created }}
-      run: |
-        echo "Hello, world! A release is created"
+      - uses: googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c # v4.3.0
+        with:
+          skip-github-release: true
