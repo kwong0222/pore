@@ -22,6 +22,6 @@ module Pore
   end
 
   def new_feature
-    puts "New feature"
+    puts "New feature!"
   end
 end
