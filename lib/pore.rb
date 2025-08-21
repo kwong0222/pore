@@ -20,4 +20,8 @@ module Pore
   def automated_release
     puts "Automated release 5"
   end
+
+  def new_feature
+    puts "New feature"
+  end
 end
