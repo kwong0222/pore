@@ -1,5 +1,23 @@
 ## [Unreleased]
 
+## [2.0.0](https://github.com/kwong0222/pore/compare/v1.10.0...v2.0.0) (2025-08-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* this is new prep ([#67](https://github.com/kwong0222/pore/issues/67))
+
+### Features
+
+* this is new prep ([#67](https://github.com/kwong0222/pore/issues/67)) ([e9613f8](https://github.com/kwong0222/pore/commit/e9613f882b6deccd622bd2655587d64e53f7cc42))
+
+
+### Bug Fixes
+
+* that thing too ([48ae444](https://github.com/kwong0222/pore/commit/48ae44414f509742c704de8583036704d06f35eb))
+* thing ([#66](https://github.com/kwong0222/pore/issues/66)) ([48ae444](https://github.com/kwong0222/pore/commit/48ae44414f509742c704de8583036704d06f35eb))
+* this other thing ([48ae444](https://github.com/kwong0222/pore/commit/48ae44414f509742c704de8583036704d06f35eb))
+
 ## [1.10.0](https://github.com/kwong0222/pore/compare/v1.9.1...v1.10.0) (2025-08-21)
 
 
