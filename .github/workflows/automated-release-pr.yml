@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'lib/*/version.rb'
+      - 'CHANGELOG.md'
+      - '.release-please-manifest.json'
 
 jobs:
   release_pr:
