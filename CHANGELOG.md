@@ -1,5 +1,16 @@
 ## [Unreleased]
 
+## [3.0.0](https://github.com/kwong0222/pore/compare/v2.1.0...v3.0.0) (2025-08-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* new pore ([#72](https://github.com/kwong0222/pore/issues/72))
+
+### Features
+
+* new pore ([#72](https://github.com/kwong0222/pore/issues/72)) ([fccbb83](https://github.com/kwong0222/pore/commit/fccbb837f66cd77e0590768d1a8dedc7ef86dce1))
+
 ## [2.1.0](https://github.com/kwong0222/pore/compare/v2.0.0...v2.1.0) (2025-08-22)
 
 
