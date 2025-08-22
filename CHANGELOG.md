@@ -1,5 +1,19 @@
 ## [Unreleased]
 
+## [2.1.0](https://github.com/kwong0222/pore/compare/v2.0.0...v2.1.0) (2025-08-22)
+
+
+### Features
+
+* increate pore creation rate ([#69](https://github.com/kwong0222/pore/issues/69)) ([fedb651](https://github.com/kwong0222/pore/commit/fedb65105a546c43decede9205da24574be23c3e))
+* remove the blackheads ([#71](https://github.com/kwong0222/pore/issues/71)) ([02aa909](https://github.com/kwong0222/pore/commit/02aa909b40c5308e0cff53739c6a305f29ac4805))
+
+
+### Bug Fixes
+
+* this bug ([02aa909](https://github.com/kwong0222/pore/commit/02aa909b40c5308e0cff53739c6a305f29ac4805))
+* this other bug ([02aa909](https://github.com/kwong0222/pore/commit/02aa909b40c5308e0cff53739c6a305f29ac4805))
+
 ## [2.0.0](https://github.com/kwong0222/pore/compare/v1.10.0...v2.0.0) (2025-08-21)
 
 
