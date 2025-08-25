@@ -1,8 +1,10 @@
 name: automated-release-pr
 
 on:
-  push:
-    branches: [main]
+  pull_request:   # We use pull request instead of standard push so the auto bump is able to identify who submitted the change
+    branches:
+      - main
+    types: [ closed ]
 
 
 jobs:
