@@ -1,5 +1,14 @@
 ## [Unreleased]
 
+## [3.0.1](https://github.com/kwong0222/pore/compare/v3.0.0...v3.0.1) (2025-08-26)
+
+
+### Bug Fixes
+
+* 2 ([#81](https://github.com/kwong0222/pore/issues/81)) ([8814735](https://github.com/kwong0222/pore/commit/8814735a737280685840d155944ed3be358b0813))
+* again ([#80](https://github.com/kwong0222/pore/issues/80)) ([cf7bff8](https://github.com/kwong0222/pore/commit/cf7bff8ea352f140b4a21810de92a2c9259c5308))
+* test output ([#78](https://github.com/kwong0222/pore/issues/78)) ([a1339f9](https://github.com/kwong0222/pore/commit/a1339f94eebc39e8d4d47035c16fb2b7b306eda8))
+
 ## [3.0.0](https://github.com/kwong0222/pore/compare/v2.1.0...v3.0.0) (2025-08-26)
 
 
