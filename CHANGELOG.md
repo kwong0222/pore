@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [3.1.0](https://github.com/kwong0222/pore/compare/v3.0.1...v3.1.0) (2025-08-26)
+
+
+### Features
+
+* test ([#82](https://github.com/kwong0222/pore/issues/82)) ([71a6646](https://github.com/kwong0222/pore/commit/71a6646984e6658784a96f7e79ade5447e4329e4))
+
 ## [3.0.1](https://github.com/kwong0222/pore/compare/v3.0.0...v3.0.1) (2025-08-26)
 
 
