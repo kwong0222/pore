@@ -21,4 +21,4 @@ jobs:
       - name: Debug
         if: ${{ steps.release-please.outputs.prs_created == 'true' && steps.release-please.outputs.pr != '' }}
         run: |
-          echo "Release PR: ${{ fromJSON(steps.release-please.outputs.pr).html_url }}"
+          echo "Release PR: ${{ fromJSON(steps.release-please.outputs.pr) }}"
