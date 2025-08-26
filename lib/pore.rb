@@ -18,7 +18,7 @@ module Pore
   end
 
   def automated_release
-    puts "Automated release 8"
+    puts "Automated release 89"
   end
 
   def new_feature
