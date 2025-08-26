@@ -14,11 +14,27 @@ jobs:
       steps:
       - uses: actions/checkout@v4
 
+      - name: Create semantic tag
+        uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
+        id: filter
+        with:
+          filters: |
+            release_commit:
+              - 'lib/*/version.rb'
+              - 'CHANGELOG.md'
+
+      - name: Not a release commit
+        if: ${{ steps.filter.outputs.release_commit != 'true' }}
+        run: |
+          echo "Skipping workflow: Not a release commit"
+
       - name: Upload gem to registry
+        if: steps.filter.outputs.release_commit == 'true'
         run: |
           echo "Hello, world! A release is created"
 
       - name: Tag & create GitHub Release
+        if: success() && steps.filter.outputs.release_commit == 'true'
         uses: googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c # v4.3.0
         with:
             skip-github-pull-request: true
