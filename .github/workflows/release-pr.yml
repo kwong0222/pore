@@ -20,6 +20,8 @@ jobs:
 
       - name: Set PR to auto-merge
         if: ${{ steps.release-please.outputs.prs_created == 'true' && steps.release-please.outputs.pr != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pr='${{ steps.release-please.outputs.pr }}'
           num=$(jq -r '.number' <<< "$pr")
