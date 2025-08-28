@@ -26,4 +26,4 @@ jobs:
           pr_url="https://github.com/${{ github.repository }}/pull/${num}"
 
           echo "Merging PR ${pr_url}"
-          gh merge "${pr_url}" --merge --auto
+          gh pr merge "${pr_url}" --merge --auto
