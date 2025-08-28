@@ -22,3 +22,12 @@ jobs:
         if: ${{ steps.release-please.outputs.prs_created == 'true' && steps.release-please.outputs.pr != '' }}
         run: |
           echo "Release PR: ${{ steps.release-please.outputs.pr }}"
+
+      - name: Set PR to auto-merge
+        if: ${{ steps.release-please.outputs.prs_created == 'true' && steps.release-please.outputs.pr != '' }}
+        run: |
+          pr='${{ steps.release-please.outputs.pr }}'
+          num=$(jq -r '.number' <<< "$pr")
+          pr_url = "https://github.com/${{ github.repository }}/pull/${num}"
+
+          gh merge "${pr_url}" --merge --auto
