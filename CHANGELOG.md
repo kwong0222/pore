@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [3.2.4](https://github.com/kwong0222/pore/compare/v3.2.3...v3.2.4) (2025-08-28)
+
+
+### Bug Fixes
+
+* squash merge ([#93](https://github.com/kwong0222/pore/issues/93)) ([1684e45](https://github.com/kwong0222/pore/commit/1684e4559eff63a99ec0b6390205de6797fbf84f))
+
 ## [3.2.3](https://github.com/kwong0222/pore/compare/v3.2.2...v3.2.3) (2025-08-28)
 
 
