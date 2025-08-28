@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [3.2.0](https://github.com/kwong0222/pore/compare/v3.1.0...v3.2.0) (2025-08-28)
+
+
+### Features
+
+* automerge ([#84](https://github.com/kwong0222/pore/issues/84)) ([8261928](https://github.com/kwong0222/pore/commit/8261928a39da03a58b96c09cfab8dabc325ad302))
+
 ## [3.1.0](https://github.com/kwong0222/pore/compare/v3.0.1...v3.1.0) (2025-08-26)
 
 
