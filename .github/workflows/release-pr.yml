@@ -23,6 +23,7 @@ jobs:
         run: |
           pr='${{ steps.release-please.outputs.pr }}'
           num=$(jq -r '.number' <<< "$pr")
-          pr_url = "https://github.com/${{ github.repository }}/pull/${num}"
+          pr_url="https://github.com/${{ github.repository }}/pull/${num}"
 
+          echo "Merging PR ${pr_url}"
           gh merge "${pr_url}" --merge --auto
