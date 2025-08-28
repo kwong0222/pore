@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [3.2.2](https://github.com/kwong0222/pore/compare/v3.2.1...v3.2.2) (2025-08-28)
+
+
+### Bug Fixes
+
+* syntax ([#88](https://github.com/kwong0222/pore/issues/88)) ([c5c6926](https://github.com/kwong0222/pore/commit/c5c6926792a2d59be786eaeb822766359b59b15f))
+
 ## [3.2.1](https://github.com/kwong0222/pore/compare/v3.2.0...v3.2.1) (2025-08-28)
 
 
